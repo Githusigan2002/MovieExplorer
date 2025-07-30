@@ -5,7 +5,7 @@ import { converMin } from "../utils/utils";
 
 export const MovieDetails = () => {
   const params = useParams();
-  const key = import.meta.env.VITE_TMDB_API_KEY;
+  const key = "8f39312a669841f8a583c34c693dd15c";
   const [movie, setMovie] = useState(null);
   const [error, setError] = useState(null);
 

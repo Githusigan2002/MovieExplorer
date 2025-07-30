@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom"
 import { ScrollTop } from '/src/components/ScrollTop.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/MovieExplorer">
     <ScrollTop />
     <App />
   </BrowserRouter>

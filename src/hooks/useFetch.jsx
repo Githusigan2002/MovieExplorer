@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 export const useFetch = (apiPath, queryTerm = "") => {
     {
         const [data, setData] = useState([]);
-        const key = import.meta.env.VITE_TMDB_API_KEY;
+        const key = "8f39312a669841f8a583c34c693dd15c";
 
         const url = `https://api.themoviedb.org/3/${apiPath}?api_key=${key}&query=${queryTerm}`;
 
