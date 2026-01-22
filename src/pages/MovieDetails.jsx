@@ -88,7 +88,7 @@ export const MovieDetails = () => {
                 <td>${movie.budget.toLocaleString()}</td>
               </tr>
               <tr>
-                <th>Release Date</th>
+                <th>Release Date </th>
                 <td>{movie.release_date}</td>
               </tr>
             </tbody>
