@@ -1,16 +1,15 @@
-import './App.css'
-import { Header, Footer } from './components'
-import { AllRoutes } from './routes/AllRoutes'
+import './App.css';
+import { Header, Footer } from './components';
+import { AllRoutes } from './routes/AllRoutes';
 
 function App() {
-
   return (
-    <div>
+    <div className="app-container">
       <Header />
       <AllRoutes />
       <Footer />
-    </div >
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
